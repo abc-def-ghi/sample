@@ -1,10 +1,9 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const app = express();
 const PORT = 3000;
 
 // Middleware
-app.use(bodyParser.json());
+app.use(express.json());
 
 // Temporary In-Memory "Database"
 let students = [];
@@ -51,8 +50,7 @@ app.put('/students/:id', (req, res) => {
 app.delete('/students/:id', (req, res) => {
     const index = students.findIndex(s => s.id == req.params.id);
     if (index !== -1) {
-        const deletedStudent = students.splice(index, 1);
-        res.json(deletedStudent[0]);
+        res.send({message: 'Student deleted successfully'});
     } else {
         res.status(404).json({ error: 'Student not found' });
     }
