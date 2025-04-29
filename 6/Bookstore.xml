@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!DOCTYPE bookstore SYSTEM "bookstore.dtd"> 
+<bookstore> 
+    <book isbn="978-0132350884"> 
+        <title>Clean Code</title> 
+        <author>Robert C. Martin</author> 
+        <price currency="USD">32.99</price> 
+        <publishedYear>2008</publishedYear> 
+    </book> 
+    <book isbn="978-0201616224"> 
+        <title>The Pragmatic Programmer</title> 
+        <author>Andrew Hunt</author> 
+        <price currency="USD">40.00</price> 
+        <publishedYear>1999</publishedYear> 
+    </book> 
+</bookstore>

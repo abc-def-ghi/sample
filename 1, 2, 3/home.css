@@ -1,0 +1,99 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: roboto;
+    font-family:sans-serif;
+}
+.icon1{
+    width: 134px;
+    height: 70px;
+}
+input{
+    width: 500px;
+    height: 36px;
+}
+.searchBtn{
+    background-color: orange;
+    width: 48px;
+    height: 36px;
+    border-width: 0;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+#sectionCart header{
+    background-color: rgb(29, 28, 28);
+}
+#sectionCart header a{
+    color: white;
+    text-decoration: none;
+}
+.HeaderAlignment{
+    display: block;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-top: 1rem;
+}
+.exploreCard{
+    background-color: white;
+    padding: 1rem;
+}
+.exploreCard img{
+    width: 150px;
+}
+.subCardWidth{
+    width: 150px;
+}
+.cardsContainer{
+    position: relative;
+    bottom: 280px;
+}
+.cardsContainer1{
+    position: relative;
+    bottom: 230px;
+}
+.cardsContainer2{
+    position: relative;
+    bottom: 160px;
+}
+.cardsContainer3{
+    position: relative;
+    bottom: 100px;
+}
+.alignment2{
+    margin-bottom: 20rem;
+}
+h3{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.cardsContainer a{
+    padding-left: 1.5rem;
+}
+.carousel-card{
+    background-color: white;
+    margin: 2rem;
+    margin-top: 0;
+}
+.carousel-card .carousel .carousel-inner .carousel-item .card1 img{
+    width: 200px;
+    height: 200px;
+}
+.alignment3{
+    position: relative;
+    left: -100px;
+}
+.alignment4{
+    position: relative;
+    right: -100px;
+}
+.img1{
+    width: 24px;
+    height: 100px;
+    margin-bottom: 1rem;
+}
+.links{
+    color: white;
+    text-decoration: none;
+    display: block;
+}

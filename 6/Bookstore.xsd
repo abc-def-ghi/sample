@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"> 
+    <xs:element name="bookstore"> 
+        <xs:complexType> 
+            <xs:sequence> 
+                <xs:element name="book" maxOccurs="unbounded"> 
+                    <xs:complexType> 
+                        <xs:sequence>  <xs:element name="title" type="xs:string"/> 
+                            <xs:element name="author" type="xs:string"/> 
+                            <xs:element name="price"> 
+                                <xs:complexType> 
+                                    <xs:simpleContent> 
+                                        <xs:extension base="xs:decimal"> 
+                                            <xs:attribute name="currency" type="xs:string" use="required"/> 
+                                        </xs:extension> 
+                                    </xs:simpleContent> 
+                                </xs:complexType> 
+                            </xs:element> 
+                            <xs:element name="publishedYear" type="xs:int"/> 
+                        </xs:sequence> 
+                        <xs:attribute name="isbn" type="xs:string" use="required"/> 
+                    </xs:complexType> 
+                </xs:element> 
+            </xs:sequence> 
+        </xs:complexType> 
+    </xs:element> 
+</xs:schema> 

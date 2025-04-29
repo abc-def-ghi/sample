@@ -1,0 +1,53 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: linear-gradient(90deg, #4e54c8, #8f94fb);
+    color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-links a {
+    color: #fff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    color: #ffd369;
+    transform: scale(1.1);
+  }
+  
+  /* Responsive (optional) */
+  @media (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-links {
+      margin-top: 0.5rem;
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .navbar-links a {
+      margin: 10px 0;
+    }
+  }
+  

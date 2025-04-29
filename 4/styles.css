@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+input {
+    padding: 10px;
+    width: 200px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+canvas {
+    margin-top: 20px;
+}
+#weatherChart {
+    display: none; /* Hide the chart initially */
+    width: 85% !important;
+    max-width: 600px;
+    height: 400px !important;
+    margin: 20px auto;
+}

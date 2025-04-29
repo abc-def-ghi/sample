@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMAZON</title>
+    <link rel="stylesheet" href="./cart.css">
+    <script src="https://kit.fontawesome.com/94e2af800e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <h1>AMAZON</h1>
+    </header>
+
+    <!-- Search Bar with Cart Icon -->
+    <div class="cart">
+        <button id="cartBtn" class="cart-btn"> <i class="fa-solid fa-cart-shopping"></i> Cart </button>
+    </div>
+
+    <!-- Products Section -->
+    <div id="products" class="products-container"></div>
+
+    <!-- Cart Modal -->
+    <div id="cartModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>Cart</h2>
+            <div id="cartItems"></div>
+            <div id="priceDetails">
+                <h3>Price Details</h3>
+                <p>Total MRP: ₹<span id="totalMRP">0</span></p>
+                <p>Coupon Discount: ₹50</p>
+                <p>Platform Fee: ₹10</p>
+                <p>Shipping Charges: ₹20</p>
+                <p>Total Amount: ₹<span id="totalAmount">0</span></p>
+                <button onclick="placeOrder()">Place Order</button>
+            </div>
+        </div>
+
+    </div>
+    <div id="popup" class="popup">Product added to cart!</div>
+
+
+    <script src="./cart.js"></script>
+</body>
+</html>
