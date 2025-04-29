@@ -1,0 +1,29 @@
+###GET REQUEST
+get http://localhost:3000/students
+
+###POST REQUEST
+post http://localhost:3000/students
+Content-Type: application/json
+
+{
+    "name": "John Doe",
+    "age": 20,
+    "grade": "A"
+}
+
+###PUT REQUEST
+put http://localhost:3000/students/1
+Content-Type: application/json
+
+{
+    "id": 1,
+    "name": "Jane Doe",
+    "age": 21,
+    "grade": "B"
+}
+
+###DELETE REQUEST
+delete http://localhost:3000/students/2
+
+###GET REQUEST
+get http://localhost:3000/students/1
