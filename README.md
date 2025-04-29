@@ -4,3 +4,7 @@ use full path if file name only is not working
 
 >>>MongoDB URL
 mongodb+srv://varshini_ragi:Sreehith1204$@cluster-1.bfl8eci.mongodb.net/
+
+>>>12th Experiment
+do npm install and then npm start
+
