@@ -3,7 +3,7 @@ C:/Users/BOBBY/AppData/Local/Microsoft/WindowsApps/python3.11.exe -m pip install
 use full path if file name only is not working
 
 >>>MongoDB URL
-mongodb+srv://varshini_ragi:<pwd>$@cluster-1.bfl8eci.mongodb.net/
+mongodb+srv://username:pwd$@cluster-1.bfl8eci.mongodb.net/
 
 >>>12th Experiment
 do npm install and then npm start
